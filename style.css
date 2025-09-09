@@ -51,3 +51,43 @@ h1 {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
+.destination-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover .destination-image {
+    transform: scale(1.05);
+}
+
+.destination-content {
+    padding: 30px;
+}
+
+.destination-title {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.destination-description {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.destination-location {
+    background: linear-gradient(45deg, #3498db, #2c3e50);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
