@@ -56,6 +56,7 @@ h1 {
     height: 250px;
     object-fit: cover;
     transition: transform 0.3s ease;
+    border-radius: 10px;
 }
 
 .destination-card:hover .destination-image {
