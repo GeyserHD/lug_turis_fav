@@ -11,3 +11,24 @@ body {
     background: linear-gradient(45deg, #3498db, #2c3e50);
     min-height: 100vh;
 }
+header {
+    text-align: center;
+    padding: 60px 0;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 25px;
+    margin-bottom: 40px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    font-size: 1.4em;
+    color: #34495e;
+    font-style: italic;
+}
